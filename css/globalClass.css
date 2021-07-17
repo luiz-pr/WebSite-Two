@@ -46,3 +46,40 @@
     border-radius: 100%;
 }
 
+
+.intro_info #btn {
+    max-width: 16.25rem;
+    margin: 3.75rem auto;
+}
+
+#btn {
+
+    background-image: linear-gradient(#9B30F9, #84e);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border-radius: 4px;
+
+    font-size: 1.125rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    box-sizing: border-box;
+    padding: 0.9375rem;
+    margin-top: 0.9375rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    transition: .3s;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.2, 1.4);
+}
+
+#btn::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: url(./img/seta.svg) center center no-repeat;
+    transition: transform .3s, -webkit-transform .3s;
+    transition-timing-function: cubic-bezier(0.2, 1.4, 0.2, 1.4);
+}
