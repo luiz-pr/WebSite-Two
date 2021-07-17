@@ -20,3 +20,12 @@ h1::after {
     display: inline-block;
     animation: blink .7s infinite;
 }
+
+p{
+    margin-top: 1000000px;
+    color: white;
+}
+
+header{
+    background: url(../IMG/background/background.jpg);
+}

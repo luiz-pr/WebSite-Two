@@ -6,6 +6,29 @@
     z-index: 1000;
 }
 
+.header {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    display: block;
+}
+
+.header{
+    background: url(../IMG/background/background.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .intro {
+        background: url(img/bg-wolf.jpg) no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
 .bg-primary {
     background-color: rgba( 0, 0, 0, 0.6)!important;
 }
