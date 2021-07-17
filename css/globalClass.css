@@ -1,0 +1,25 @@
+
+.header {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.bg-primary {
+    background-color: rgba( 0, 0, 0, 0.6)!important;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-brand img{
+    width: 60px;
+    border-radius: 100%;
+}
+
