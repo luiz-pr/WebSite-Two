@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background: #0e1013;
+}
+
+ h1 {
+    max-width: 480px;
+    text-align: center;
+    margin: 60px auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+h1::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
