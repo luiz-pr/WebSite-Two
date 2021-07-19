@@ -21,11 +21,11 @@ h1::after {
     animation: blink .7s infinite;
 }
 
-p{
-    margin-top: 1000000px;
-    color: white;
-}
 
 header{
     background: url(../IMG/background/background.jpg);
+}
+
+div {
+    display: block;
 }
