@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+.intro-info h1{
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.promocao-extra-info {
+    font-size: 1.5rem;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  .promocao-extra-info::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 3px;
+    background: #ffffff;
+    margin: 0.9375rem auto;
+    border-radius: 6px;
+  }
+  .promocao > div > div > div:first-child {
+    display: none;
+  }
+
+ 
+/* Estilo Menu Responsivo */
+.continuar_mobile {
+    display: none;
+  }
+@media only screen and (max-width: 759px) {
+  .continuar_mobile {
+    display: block;
+  }
+} 
+
+#origamid-svg path {
+    fill: white;
+}
+#origamid-svg path.svg-g { 
+    fill: #aa88ff; 
+    transition: fill .3s ease;
+}
+#origamid-svg:hover path.svg-g { 
+    fill: white;
+}
+
+.header img{
+    margin-top: -30px;
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+}

@@ -1,4 +1,12 @@
 
+#container {
+    width: 100%;
+    height: 937px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .intro_info #btn {
     max-width: 16.25rem;
     margin: 3.75rem auto;
@@ -37,6 +45,12 @@
     transition-timing-function: cubic-bezier(0.2, 1.4, 0.2, 1.4);
 }
 
+
+/* conteudo */
 #conteudo {
-    background: #1B1D20;
+    width: 100%;
+    height: 100px;
+    background: #000;
+    position: relative;
+    /* background: #1B1D20; */
 }
